@@ -21,7 +21,7 @@ body {
   font-family: Segoe UI;
 }
 
-#logo {
+.logo {
   display: inline-block;
   position: absolute;
   margin: 26px 49px;
@@ -36,7 +36,7 @@ a {
 }
 
 section {
-  margin: 0rem 10rem;
+  margin: 0rem 25rem;
 }
 
 .card-wrapper {
@@ -104,6 +104,10 @@ section {
 }
 
 @media screen and (min-width: 700px) {
+  section {
+    margin: 0rem 10rem;
+  }
+
   .card-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,5 +117,23 @@ section {
 
   .card {
     margin: 2rem;
+  }
+
+  #header {
+    font-size: 18px;
+    display: inline-block;
+    margin: 58px 84px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Segoe UI;
+  }
+
+  .logo {
+    display: inline-block;
+    position: absolute;
+    margin: 26px 49px;
+    float: left;
+    width: 80px;
+    height: 79px;
   }
 }
